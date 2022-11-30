@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-header ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -13,12 +13,12 @@ header ul {
   margin-top: 54px;
 }
 
-p.welcome {
-  font-size: 20px;
+nav li a.welcome {
+  text-decoration: none;
   font-weight: 600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #28352f;
-  text-decoration: none;
+  font-size: 20px;
   line-height: 28px;
   margin: 0;
 }
@@ -34,7 +34,7 @@ span {
   color: #36b37f;
 }
 
-p.introduction {
+h1.introduction {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
   color: #172b4d;
