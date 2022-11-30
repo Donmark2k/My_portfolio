@@ -61,11 +61,11 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[My_portfolio]** is a project designed to display my portfolio.
+**[My_portfolio]** is a project designed to display my professional skills and future projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-Figma. VS code
+VS code, git, github
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -98,9 +98,7 @@ Figma. VS code
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[introducing myself as a software developer]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +116,8 @@ Figma. VS code
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Describe how a new developer could make use of your project. 
+It will help a new developer to hire me to carry out her projects
 
 To get a local copy up and running, follow these steps.
 
@@ -143,7 +142,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:donmark2k/Hello_world.git
+  git clone git@github.com:donmark2k/My_portfolio.git
 ```
 --->
 
@@ -219,7 +218,11 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [1 ] **[I add style to the h1 tag]**
+- [1 ] **[I will add the comment section]**
+- [2 ] **[I will add the about me section]**
+- [3 ] **[I will add the contact me section]**
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -250,7 +253,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank my future reviewers for making me a better me...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,13 +263,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Are you sure that you are owner of this work]**
 
-  - [Answer_1]
+  - [Yes, I am]
 
-- **[Question_2]**
+- **[Can you make the work to be responsive]**
 
-  - [Answer_2]
+  - [yes]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
