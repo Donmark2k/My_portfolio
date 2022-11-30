@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    max-width: 375px;
+    background-color: white;
+    margin: 0;
+}
+
+header ul {
+     display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 36px;
+    margin-top: 54px;
+}
+
+p.welcome {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #28352F;
+    text-decoration: none;
+    line-height: 28px;
+    margin: 0;
+
+}
+
+section {
+    margin: 0;
+    background: url(img/bgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span {
+    color: #36B37F;
+}
+
+p.introduction {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #172B4D;
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-style: normal;
+    text-align: center;
+}
+
+p.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #172B4D;
+    line-height: 28px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.social-icons ul {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    width: 170.17px;
+    margin-left: 68.42px;
+    margin-top: 58px;
+}
+
+.social-icons li {
+    list-style-type: none;
+    
+}
