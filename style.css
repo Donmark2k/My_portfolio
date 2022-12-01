@@ -11,6 +11,7 @@ nav ul {
   list-style-type: none;
   margin-right: 36px;
   margin-top: 54px;
+  height: 28px;
 }
 
 nav li a.welcome {
@@ -21,6 +22,7 @@ nav li a.welcome {
   font-size: 20px;
   line-height: 28px;
   margin: 0;
+  width: 90px;
 }
 
 section {
@@ -63,8 +65,174 @@ p.description {
   width: 170.17px;
   margin-left: 68.42px;
   margin-top: 58px;
+  margin-bottom: 0;
 }
 
 .social-icons li {
   list-style-type: none;
+}
+
+.grid-container {
+  display: grid;
+}
+
+h2 {
+  font-size: 40px;
+  color: #172b4d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  line-height: 52px;
+}
+
+h2.recentwork {
+  margin-bottom: 90px;
+  margin-top: 126px;
+}
+
+#recentcard {
+  border: 1px solid #d0d9d4;
+  width: 327px;
+  height: 474px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  margin-left: 26px;
+  margin-right: 22px;
+  background-color: #ebf0ee;
+  position: relative;
+}
+
+.innerdownbox {
+  width: 327px;
+  height: 222px;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.innerdownbox p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  margin: 16px;
+  color: #3a4a42;
+}
+
+.innerdownbox ul {
+  display: flex;
+  margin-top: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+  border: none;
+  max-width: 310px;
+  margin-left: -32px;
+}
+
+.innerdownbox li a {
+  text-decoration: none;
+  color: #3a4a42;
+  background-color: #ebf0ee;
+  padding: 8px 12px 8px 12px;
+  border: none;
+  border-radius: 8px;
+  width: auto;
+  list-style-type: none;
+}
+
+.innerdownbox li {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.describeme {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: #42526e;
+  width: 351px;
+  margin-left: 12px;
+}
+
+.resumebutton {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  width: auto;
+  font-size: 17px;
+  text-align: center;
+  font-style: normal;
+  align-self: center;
+  border: none;
+  margin-left: 108px;
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+
+article {
+  margin: 0;
+  background: url(img/illustration.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutmebox {
+  width: 327px;
+  margin: 12px 24px;
+  background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.aboutmebox img {
+  align-content: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.describeaboutmebox {
+  text-align: center;
+  color: #344563;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aboutmebox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+  border: none;
+  max-width: 321px;
+  margin-left: -34px;
+}
+
+.aboutmebox li a {
+  text-decoration: none;
+  color: #36b37e;
+  background-color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: auto;
+}
+
+.aboutmebox li {
+  display: flex;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }

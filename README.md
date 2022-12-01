@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[My_portfolio]** is a project designed to display my professional skills and future projects.
+**[My_portfolio]** is a project designed to display my professional skills, programming languages  finished projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,6 +99,9 @@ VS code, git, github
 > Describe between 1-3 key features of the application.
 
 - **[introducing myself as a software developer]**
+- **[languages that I can code in]**
+- **[my past project]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,8 +222,7 @@ Example:
 > Describe 1 - 3 features you will add to the project.
 
 - [1 ] **[I will add the comment section]**
-- [2 ] **[I will add the about me section]**
-- [3 ] **[I will add the contact me section]**
+- [2] **[I will add the contact me section]**
 
 
 
