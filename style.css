@@ -87,8 +87,8 @@ h2 {
 }
 
 h2.recentwork {
-  margin-bottom: 90px;
-  margin-top: 126px;
+  margin-bottom: 24px;
+  margin-top: 22px;
 }
 
 #recentcard {
@@ -184,10 +184,8 @@ h2.recentwork {
 }
 
 article.aboutme {
-  margin: 0;
-  background: url(img/illustration.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin-bottom: 0;
+  background: url(img/Mask.png) right top no-repeat, url(img/bottom.png) left bottom no-repeat;
 }
 
 .aboutmebox {
@@ -234,6 +232,9 @@ article.aboutme {
   border: none;
   border-radius: 8px;
   width: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .aboutmebox li {
@@ -249,4 +250,15 @@ article.aboutme {
 
 .buttons:active {
   background-color: #008552;
+}
+
+#myrecentwork img {
+  margin-left: 45%;
+  margin-bottom: 62px;
+}
+
+#myrecentwork img.arrow {
+  margin-left: 45%;
+  margin-bottom: 0;
+  margin-top: 64px;
 }
