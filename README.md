@@ -59,9 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [My_portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[My_portfolio]** is a project designed to display my professional skills and future projects.
+**[My_portfolio]** is a project designed to display my professional skills, programming languages  finished projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,8 +67,8 @@ VS code, git, github
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+Stylelint was used to check errors in style.css
+Webhint was used to check errors in index.html
 <details>
   <summary>Client</summary>
   <ul>
@@ -96,9 +94,10 @@ VS code, git, github
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[introducing myself as a software developer]**
+- **[languages that I can code in]**
+- **[my past project]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +105,6 @@ VS code, git, github
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -116,7 +114,6 @@ VS code, git, github
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project. 
 It will help a new developer to hire me to carry out her projects
 
 To get a local copy up and running, follow these steps.
@@ -199,9 +196,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+## 👥 Author <a name="author"></a>
 
 👤 **Author1**
 
@@ -216,11 +211,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [1 ] **[I will add the comment section]**
-- [2 ] **[I will add the about me section]**
-- [3 ] **[I will add the contact me section]**
+- [2] **[I will add the contact me section]**
 
 
 
@@ -241,8 +234,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -251,8 +242,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank my future reviewers for making me a better me...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -260,8 +249,6 @@ I would like to thank my future reviewers for making me a better me...
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Are you sure that you are owner of this work]**
 
