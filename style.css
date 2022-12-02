@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   box-sizing: border-box;
   max-width: 375px;
@@ -17,7 +19,7 @@ nav ul {
 nav li a.welcome {
   text-decoration: none;
   font-weight: 600;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #28352f;
   font-size: 20px;
   line-height: 28px;
@@ -25,7 +27,7 @@ nav li a.welcome {
   width: 90px;
 }
 
-section {
+section.myname {
   margin: 0;
   background: url(img/bgimage.png);
   background-repeat: no-repeat;
@@ -37,7 +39,7 @@ span {
 }
 
 h1.introduction {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #172b4d;
   margin-top: 64px;
@@ -48,7 +50,7 @@ h1.introduction {
 }
 
 p.description {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   color: #172b4d;
   line-height: 28px;
@@ -79,7 +81,7 @@ p.description {
 h2 {
   font-size: 40px;
   color: #172b4d;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   text-align: center;
   line-height: 52px;
 }
@@ -102,7 +104,7 @@ h2.recentwork {
 }
 
 .innerdownbox {
-  width: 327px;
+  width: 100%;
   height: 222px;
   border-radius: 8px;
   background-color: white;
@@ -111,7 +113,7 @@ h2.recentwork {
 }
 
 .innerdownbox p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -131,12 +133,13 @@ h2.recentwork {
   text-decoration: none;
   flex-wrap: wrap;
   border: none;
-  max-width: 310px;
-  margin-left: -32px;
+  max-width: 304px;
+  margin-left: -28px;
 }
 
 .innerdownbox li a {
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
   color: #3a4a42;
   background-color: #ebf0ee;
   padding: 8px 12px 8px 12px;
@@ -144,6 +147,8 @@ h2.recentwork {
   border-radius: 8px;
   width: auto;
   list-style-type: none;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .innerdownbox li {
@@ -152,7 +157,7 @@ h2.recentwork {
 }
 
 .describeme {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: 400;
@@ -162,7 +167,7 @@ h2.recentwork {
 }
 
 .resumebutton {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #36b37f;
   color: white;
   padding: 12px;
@@ -178,7 +183,7 @@ h2.recentwork {
   margin-top: 0;
 }
 
-article {
+article.aboutme {
   margin: 0;
   background: url(img/illustration.png);
   background-repeat: no-repeat;
@@ -202,7 +207,7 @@ article {
 .describeaboutmebox {
   text-align: center;
   color: #344563;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -235,4 +240,13 @@ article {
   display: flex;
   margin-right: 8px;
   margin-bottom: 8px;
+}
+
+.buttons:hover {
+  background-color: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.buttons:active {
+  background-color: #008552;
 }
