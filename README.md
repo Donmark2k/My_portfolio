@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [My_portfolio] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to display my professional skills, programming languages  finished projects.
+**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,6 +97,7 @@ Webhint was used to check errors in index.html
 - **[introducing myself as a software developer]**
 - **[languages that I can code in]**
 - **[my past project]**
+- **[contact me session]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,6 +204,12 @@ Example:
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
+
+**Author2**
+
+- GitHub: [@Donmark2k](https://github.com/marcoshdezcam)
+- Twitter: [@Donmark2k](https://twitter.com/MarcosHCampos)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcos-hernandez/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
