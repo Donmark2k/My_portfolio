@@ -46,6 +46,7 @@ h1.introduction {
   margin-left: 24px;
   margin-right: 24px;
   font-style: normal;
+  max-width: 327px;
   text-align: center;
   max-width: 327px;
 }
@@ -55,6 +56,7 @@ p.description {
   font-size: 20px;
   color: #172b4d;
   line-height: 28px;
+  max-width: 327px;
   margin-left: 24px;
   margin-right: 24px;
   text-align: center;
