@@ -279,6 +279,7 @@ article.aboutme {
   max-width: 327px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .contact-me-ul {
@@ -286,12 +287,17 @@ article.aboutme {
   margin: 0;
   padding: 0;
   max-width: 327px;
-  background: url(img/contact-form.png) right bottom no-repeat;
 }
 
 footer {
   margin: 24px;
   height: 100%;
+}
+
+.image-down {
+  position: absolute;
+  top: 77%;
+  right: 0;
 }
 
 #name,

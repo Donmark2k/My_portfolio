@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-VS code, git, github
+VS code, git, github, figma
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -115,9 +115,7 @@ Webhint was used to check errors in index.html
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-It will help a new developer to hire me to carry out her projects
-
-To get a local copy up and running, follow these steps.
+You have to clone the repository first, then run it on your browser
 
 ### Prerequisites
 
@@ -219,8 +217,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [1 ] **[I will add the comment section]**
-- [2] **[I will add the contact me section]**
+- [1 ] **[I will include livechat]**
 
 
 
