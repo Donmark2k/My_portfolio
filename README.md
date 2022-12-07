@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [My_portfolio] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session.
+**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session with animation effects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -98,6 +98,8 @@ Webhint was used to check errors in index.html
 - **[languages that I can code in]**
 - **[my past project]**
 - **[contact me session]**
+- **[Animation effect]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
