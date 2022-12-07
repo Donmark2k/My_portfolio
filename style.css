@@ -55,12 +55,12 @@ p.description {
   font-size: 20px;
   color: #172b4d;
   line-height: 28px;
-  max-width: 327px;
   margin-left: 24px;
   margin-right: 24px;
   text-align: center;
   font-weight: 400;
   margin-bottom: 0;
+  max-width: 327px;
 }
 
 .social-icons ul {
@@ -263,4 +263,108 @@ article.aboutme {
   margin-left: 45%;
   margin-bottom: 0;
   margin-top: 64px;
+}
+
+.contact-me h2 {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-me {
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.contact-me-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 327px;
+}
+
+footer {
+  margin: 24px;
+  height: 100%;
+}
+
+.image-down {
+  position: absolute;
+  top: 77%;
+  right: 0;
+}
+
+#name,
+#mail {
+  list-style: none;
+  padding: 15px 16px;
+  border-radius: 4px;
+  margin-top: 24px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border: 1px solid #d0d9d4;
+}
+
+#msg {
+  list-style: none;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 24px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #60c095;
+  height: 114px;
+}
+
+.btn {
+  font-family: 'Inter', sans-serif;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  width: auto;
+  font-size: 17px;
+  text-align: center;
+  font-style: normal;
+  align-self: center;
+  border: none;
+  margin-left: 108px;
+  margin-bottom: 17px;
+  margin-top: 24px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.icon-contact {
+  display: flex;
+  margin-left: 48px;
+}
+
+.icon-contact li {
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.mail-address {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 0;
 }
