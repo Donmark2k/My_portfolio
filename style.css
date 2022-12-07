@@ -63,6 +63,7 @@ p.description {
   max-width: 327px;
 }
 
+
 .social-icons ul {
   display: flex;
   justify-content: space-between;
@@ -248,6 +249,7 @@ article.aboutme {
 .buttons:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  opacity: 1;
 }
 
 .buttons:active {
@@ -367,4 +369,29 @@ textarea {
   text-align: center;
   color: #42526e;
   margin-top: 0;
+}
+
+.buttons {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.get-my {
+  transition-timing-function: ease-in;
+  transition-duration:  2s;
+}
+
+.get-my:hover {
+  width: 190px;  
+}
+
+a.welcome {
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+@keyframes logo {
+  from {color: #28352f;}
+  to {color: yellow;}
 }
