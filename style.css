@@ -28,7 +28,6 @@ nav ul {
 header {
   display: flex;
   justify-content: center;
-
 }
 
 nav a {
@@ -137,6 +136,7 @@ p.description {
   position: absolute;
   top: 82%;
   left: 39%;
+
   /* height: 10%; */
 }
 
@@ -265,8 +265,8 @@ h2 {
 }
 
 .button-box {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .innerdownbox p {
@@ -331,7 +331,7 @@ justify-content: center;
 .resume-button {
   display: flex;
   justify-content: center;
-  }
+}
 
 .buttons:hover {
   background-color: #36b37f;
@@ -366,7 +366,7 @@ article.aboutme {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  margin-bottom: 24px; 
+  margin-bottom: 24px;
 }
 
 .aboutmebox {
