@@ -590,3 +590,30 @@ textarea {
     margin-bottom: 62px;
   }
 }
+
+.buttons {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.get-my {
+  transition-timing-function: ease-in;
+  transition-duration:  2s;
+}
+
+.get-my:hover {
+  width: 190px;  
+}
+
+a.welcome {
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+@keyframes logo {
+  from {color: #28352f;}
+  to {color: yellow;}
+}
+
+
