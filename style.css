@@ -365,8 +365,7 @@ h2 {
 
 article .aboutme {
   margin-bottom: 0;
-  background: url(img/Mask.png) right top no-repeat,
-    url(img/bottom.png) left bottom no-repeat;
+  background: url(img/Mask.png) right top no-repeat, url(img/bottom.png) left bottom no-repeat;
 }
 
 .describeaboutmebox {
