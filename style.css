@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   box-sizing: border-box;
   max-width: 100%;
   background-color: white;
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  margin-left: 32px;
+  font-family: "Inter", sans-serif;
+  /* margin-left: 32px; */
+  overflow-x: none;
 }
 
 * {
   margin: 0;
+  overflow-x: none;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .menu-icon,
@@ -36,7 +40,7 @@ nav a {
   font-size: 15px;
   color: #344563;
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 20px;
 }
@@ -77,7 +81,7 @@ section.myname {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   color: #172b4d;
   font-style: normal;
@@ -92,7 +96,7 @@ span {
 }
 
 p.description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #172b4d;
   line-height: 28px;
@@ -186,7 +190,7 @@ p.description {
 @media screen and (max-width: 375px) {
   h1.introduction {
     margin: 0 24px 0 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     color: #172b4d;
     font-style: normal;
@@ -196,7 +200,7 @@ p.description {
 
   p.description {
     margin: 0 24px 0 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     color: #172b4d;
     line-height: 28px;
@@ -216,7 +220,7 @@ p.description {
 h2 {
   font-size: 40px;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
   line-height: 52px;
   width: 80%;
@@ -270,7 +274,7 @@ h2 {
 }
 
 .innerdownbox p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -296,7 +300,7 @@ h2 {
 
 .innerdownbox li a {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #3a4a42;
   background-color: #ebf0ee;
   padding: 8px 12px 8px 12px;
@@ -309,7 +313,7 @@ h2 {
 }
 
 .resumebutton {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #36b37f;
   color: white;
   padding: 12px;
@@ -344,7 +348,7 @@ h2 {
 }
 
 .describeme {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: 400;
@@ -355,13 +359,14 @@ h2 {
 
 article.aboutme {
   margin-bottom: 0;
-  background: url(img/Mask.png) right top no-repeat, url(img/bottom.png) left bottom no-repeat;
+  background: url(img/Mask.png) right top no-repeat,
+    url(img/bottom.png) left bottom no-repeat;
 }
 
 .describeaboutmebox {
   text-align: center;
   color: #344563;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -399,7 +404,7 @@ article.aboutme {
   border: none;
   border-radius: 8px;
   width: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
 }
@@ -433,7 +438,7 @@ footer {
 
 .last-container h2 {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 100%;
   padding: 0;
   font-size: 30px;
@@ -471,7 +476,7 @@ textarea {
   border-radius: 4px;
   margin-top: 24px;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   border: 1px solid #d0d9d4;
 }
@@ -483,13 +488,13 @@ textarea {
   border-radius: 4px;
   margin-top: 24px;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: 1px solid #60c095;
   height: 114px;
 }
 
 .mail-address {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -505,7 +510,7 @@ textarea {
 }
 
 .btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #36b37f;
   color: white;
   padding: 12px;
@@ -599,11 +604,11 @@ textarea {
 
 .get-my {
   transition-timing-function: ease-in;
-  transition-duration:  2s;
+  transition-duration: 2s;
 }
 
 .get-my:hover {
-  width: 190px;  
+  width: 190px;
 }
 
 a.welcome {
@@ -612,8 +617,10 @@ a.welcome {
 }
 
 @keyframes logo {
-  from {color: #28352f;}
-  to {color: yellow;}
+  from {
+    color: #28352f;
+  }
+  to {
+    color: yellow;
+  }
 }
-
-
