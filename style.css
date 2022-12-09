@@ -22,7 +22,13 @@ nav ul {
   display: flex;
   list-style-type: none;
   width: 20%;
-  margin: 26px 40% 0 40%;
+  margin-top: 26px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+
 }
 
 nav a {
@@ -33,6 +39,7 @@ nav a {
   padding: 10px 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 375px) {
@@ -72,11 +79,13 @@ section.myname {
 
 h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 48px;
   color: #172b4d;
   font-style: normal;
   text-align: center;
   padding-top: 10rem;
+  letter-spacing: 0.37px;
+  font-weight: 800;
 }
 
 span {
@@ -99,47 +108,50 @@ p.description {
   list-style-type: none;
   width: 200px;
   justify-content: space-between;
-  margin: 24px auto 0 auto;
+  margin: 24px auto 24px auto;
   padding: 0;
 }
 
 .back-pic {
+  background: url(img/Groupline.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 .aa {
   position: absolute;
-  top: 12%;
+  top: 27%;
   left: 1%;
-  height: 12%;
 }
 
 .ab {
   position: absolute;
-  top: 90%;
-  right: 75%;
-  height: 15%;
+  top: 100%;
+  left: 18%;
+  height: 30%;
 }
 
 .ac {
   position: absolute;
   top: 82%;
   left: 39%;
-  height: 10%;
+  /* height: 10%; */
 }
 
 .ad {
   position: absolute;
   top: 72%;
   right: 15%;
-  height: 25%;
+  height: 55%;
 }
 
 .ae {
   position: absolute;
-  top: 3%;
+  top: 20%;
   right: 0;
-  height: 25%;
+  height: 70%;
 }
 
 .ag {
@@ -152,17 +164,16 @@ p.description {
 .af {
   position: absolute;
   top: 0;
-  right: 7%;
-  height: 10%;
+  right: 18%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1378px) {
   .image-a {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1378px) {
   section.myname {
     background: url(img/bgimage.png);
     background-repeat: no-repeat;
@@ -198,6 +209,8 @@ p.description {
 .arrow-full {
   margin: 64px auto 0 auto;
   width: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -207,7 +220,7 @@ h2 {
   text-align: center;
   line-height: 52px;
   width: 80%;
-  margin: 100px auto 52px auto;
+  margin: 120px auto 52px auto;
   padding: 0;
 }
 
@@ -251,6 +264,11 @@ h2 {
   bottom: 0;
 }
 
+.button-box {
+display: flex;
+justify-content: center;
+}
+
 .innerdownbox p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -273,6 +291,7 @@ h2 {
   flex-wrap: wrap;
   border: none;
   padding: 0;
+  margin-bottom: 24px;
 }
 
 .innerdownbox li a {
@@ -289,11 +308,6 @@ h2 {
   font-size: 12px;
 }
 
-.innerdownbox li {
-  display: flex;
-  margin-bottom: 8px;
-}
-
 .resumebutton {
   font-family: 'Inter', sans-serif;
   background-color: #36b37f;
@@ -305,15 +319,19 @@ h2 {
   text-align: center;
   font-style: normal;
   border: none;
-  margin-left: 35%;
+  margin-top: 12px;
 }
 
 .card-button {
   width: 155px;
   padding: 12px;
-  margin-left: 43%;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+  }
 
 .buttons:hover {
   background-color: #36b37f;
@@ -348,6 +366,7 @@ article.aboutme {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
+  margin-bottom: 24px; 
 }
 
 .aboutmebox {
@@ -408,6 +427,8 @@ footer {
   margin: 0 auto;
   justify-content: center;
   column-gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 240px;
 }
 
 .last-container h2 {
@@ -515,7 +536,7 @@ textarea {
   top: 35%;
   right: 0;
   bottom: 20%;
-  height: 50%;
+  height: 55%;
 }
 
 .image-middle {
@@ -536,16 +557,20 @@ textarea {
 
 .rectangle {
   position: absolute;
-  margin-top: 6%;
+  bottom: 10%;
   width: 100%;
 }
 
-@media screen and (max-width: 847px) {
+@media screen and (max-width: 879px) {
   .image-first,
   .image-middle,
   .image-last,
   .rectangle {
     display: none;
+  }
+
+  .last-container {
+    margin-top: 0;
   }
 
   .mail-address,
