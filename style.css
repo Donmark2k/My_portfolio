@@ -363,10 +363,9 @@ h2 {
   margin: 0 auto 24px auto;
 }
 
-article.aboutme {
+article .aboutme {
   margin-bottom: 0;
-  background:
-    url(img/Mask.png) right top no-repeat,
+  background: url(img/Mask.png) right top no-repeat,
     url(img/bottom.png) left bottom no-repeat;
 }
 
