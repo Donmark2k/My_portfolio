@@ -337,6 +337,12 @@ h2 {
   justify-content: center;
 }
 
+.buttons {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
 .buttons:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
@@ -359,7 +365,8 @@ h2 {
 
 article.aboutme {
   margin-bottom: 0;
-  background: url(img/Mask.png) right top no-repeat,
+  background:
+    url(img/Mask.png) right top no-repeat,
     url(img/bottom.png) left bottom no-repeat;
 }
 
@@ -595,12 +602,6 @@ textarea {
   }
 }
 
-.buttons {
-  transition-duration: 0.4s;
-  cursor: pointer;
-  opacity: 0.6;
-}
-
 .get-my {
   transition-timing-function: ease-in;
   transition-duration: 2s;
@@ -619,6 +620,7 @@ a.welcome {
   from {
     color: #28352f;
   }
+
   to {
     color: yellow;
   }
