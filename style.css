@@ -2,6 +2,7 @@
 
 body {
   box-sizing: border-box;
+  width: 100vw;
   max-width: 100%;
   background-color: white;
   margin: 0;
@@ -32,6 +33,7 @@ nav ul {
 header {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 nav a {
@@ -392,7 +394,6 @@ article.aboutme {
   border: none;
   width: 100%;
   margin: 0 auto;
-  margin-left: -34px;
   margin-bottom: 24px;
 }
 
