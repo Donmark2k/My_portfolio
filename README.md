@@ -69,6 +69,7 @@ VS code, git, github, figma
 
 Stylelint was used to check errors in style.css
 Webhint was used to check errors in index.html
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -100,17 +101,13 @@ Webhint was used to check errors in index.html
 - **[contact me session]**
 - **[Responsive Version using bootstrap]**
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://donmark2k.github.io/My_portfolio/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,9 +207,7 @@ Example:
 
 - GitHub: [@Donmark2k](https://github.com/dieum512)
 - Twitter: [@Donmark2k](https://twitter.com/dieumakonkw)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dieum512-/)
-
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dieum-akonkwa-7981b924b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,11 +215,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [1 ] **[I will include livechat]**
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
