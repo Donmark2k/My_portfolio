@@ -641,3 +641,14 @@ a.welcome {
     transition-timing-function: ease-in;
   }
 }
+
+.description:hover {
+  cursor: pointer;
+  font-size: 24px
+}
+.btn:hover {
+  width: 150px;
+  font-size: 20px;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in;
+}
