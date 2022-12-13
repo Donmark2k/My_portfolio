@@ -210,7 +210,7 @@ Example:
 
 - GitHub: [@Donmark2k](https://github.com/dieum512)
 - Twitter: [@Donmark2k](https://twitter.com/dieumakonkw)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dieum-/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dieum512-/)
 
 
 
