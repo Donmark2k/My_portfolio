@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [My_portfolio] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session that is designed that run on both mobile and desktop devices.
+**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session that is designed that run on both mobile and desktop devices using css preprocessor.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,6 +69,7 @@ VS code, git, github, figma
 
 Stylelint was used to check errors in style.css
 Webhint was used to check errors in index.html
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -98,9 +99,7 @@ Webhint was used to check errors in index.html
 - **[languages that I can code in]**
 - **[my past project]**
 - **[contact me session]**
-- **[Responsive Version]**
-
-
+- **[Responsive Version using bootstrap]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,9 +107,7 @@ Webhint was used to check errors in index.html
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://donmark2k.github.io/My_portfolio/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +181,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: github
 
 <!--
 Example:
@@ -206,17 +203,19 @@ Example:
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
+**Author2**
+
+- GitHub: [@Donmark2k](https://github.com/dieum512)
+- Twitter: [@Donmark2k](https://twitter.com/dieumakonkw)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dieum-akonkwa-7981b924b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [1 ] **[I will include livechat]**
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
