@@ -587,6 +587,10 @@ textarea {
     display: none;
   }
 
+  .rectangle {
+    width: 0;
+  }
+
   .last-container {
     margin-top: 0;
   }
