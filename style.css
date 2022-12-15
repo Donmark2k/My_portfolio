@@ -28,12 +28,11 @@ nav a {
 }
 
 @media screen and (max-width: 375px) {
-  
   .af {
     display: none;
   }
-  
-   a.welcome {
+
+  a.welcome {
     text-decoration: none;
     font-weight: 600;
     color: #28352f;
