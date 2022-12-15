@@ -16,23 +16,6 @@ body {
   overflow-x: none;
 }
 
-.menu-icon,
-.welcome {
-  display: none;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  width: 20%;
-  margin-top: 26px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-}
-
 nav a {
   text-decoration: none;
   margin-right: 12px;
@@ -45,33 +28,12 @@ nav a {
 }
 
 @media screen and (max-width: 375px) {
-  .menu-bar,
+  
   .af {
     display: none;
   }
-
-  .menu-icon,
-  .welcome {
-    display: flex;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 54px 0 0 24px;
-    height: 28px;
-    width: 90%;
-  }
-
-  .menu-icon {
-    padding: 0;
-    margin-right: 0;
-    margin-top: 8px;
-    margin-left: 300%;
-  }
-
-  a.welcome {
+  
+   a.welcome {
     text-decoration: none;
     font-weight: 600;
     color: #28352f;
@@ -406,6 +368,7 @@ article.aboutme {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 24px;
+  margin-right: 24px;
 }
 
 .aboutmebox li a {
