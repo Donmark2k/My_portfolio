@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title aria-label="title">Chukwuemeka's Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header aria-label="navigation" role="navigation">
+    <!-- <header aria-label="navigation" role="navigation">
       <div><a href="#" class="welcome">Welcome</a></div>
       <nav role="navigation">
         <ul>
@@ -19,7 +21,33 @@
       </nav>
       <div class="menu-image"><img class="menu-icon" src="img/Union.png" alt="menu bar" /></div>
       <div><img class="af image-a" src="img/af.png" alt="background  image design" /></div>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-sm navbar-light  d-flex justify-content-center" aria-label="navigation" role="navigation">
+      <div class="container m-3 m-sm-0">
+        <a href="#" class="navbar d-sm-none navbar-brand welcome"> Welcome</a>
+        <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse"
+        data-bs-target="#nav-menu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="nav-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+           </ul>
+           <div><img class="af image-a" src="img/af.png" alt="background  image design" /></div>
+        </div>
+      </div>
+    </nav>
+  
 
     <section class="back-pic" aria-label="introduction">
       <section class="myname" aria-label="who I am">
@@ -50,7 +78,7 @@
           </li>
         </ul>
       </section>
-      <div class="arrow-full" aria-label=" go to the footer">
+      <div class="arrow-full" aria-label=" go to the footer" id="">
         <img class="arrow-icon" src="img/Disabled.png" alt="menu bar" />
       </div>
 
@@ -66,9 +94,9 @@
 
     <!-- My Recent Work Section  -->
 
-    <h2 class="recentwork" aria-label="my recent work">My Recent Works</h2>
+    <h2 class="recentwork" id="portfolio" aria-label="my recent work">My Recent Works</h2>
     <img class="line-bar" src="img/Indicator.png" alt="Indicator line" aria-label=" a line demarcation image" />
-    <section id="myrecentwork" class="grid-container" aria-label="my recent work">
+    <section id="myrecentwork" class="grid-container" aria-label="my recent work" >
       <article id="recentcard" class="firstbox">
         <article class="innerdownbox">
           <p>
@@ -189,7 +217,7 @@
 
     <!-- About me Section            -->
 
-    <article class="aboutme" aria-label="working experience">
+    <article class="aboutme" aria-label="working experience" id="about">
       <h2>About me</h2>
       <p class="describeme">
         I can help you build a product , feature or website Look through some of
@@ -238,16 +266,16 @@
       </article>
     </section>
 
-    <footer class="contact-me" aria-label=" footer section">
+    <footer class="contact-me" aria-label=" footer section" id="contact">
       <div>
-        <div class="last-container" aria-label="My message">
+        <div class="last-container" aria-label="My message" class="justify-content-center">
           <div class="last-paragraph">
             <h2>
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </h2>
           </div>
-          <div aria-label="contact me form ">
+          <div aria-label="contact me form" class="mx-2">
             <form action="https://formspree.io/f/xjvznrbv" method="post">
               <ul class="contact-me-ul">
                 <li> 
@@ -325,5 +353,6 @@
       </div>
       <p class="mail-address" aria-label="author email address">chukwuemekavp@gmail.com</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
   </body>
 </html>
