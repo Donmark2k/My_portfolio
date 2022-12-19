@@ -16,42 +16,42 @@ body {
   overflow-x: none;
 }
 
-nav a {
+a.nav-branding {
   text-decoration: none;
   margin-right: 12px;
-  font-size: 15px;
-  color: #344563;
-  padding: 10px 12px;
+  font-size: 20px;
+  color: #28352f;
+  padding: 0;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 20px;
 }
 
-header {
-  background-color: #60c095;
-  place-content: center;
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3A4A42;
 }
 
-li {
-  list-style: none;
+header {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-branding {
   display: none;
 }
 
-.navbar {
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-}
-
 .nav-menu {
   display: flex;
-  justify-content: center;
-  align-items: left;
+  background-color: white;
+  width: 20%;
+  list-style: none;
+  padding: 0;
 }
 
 .hamburger {
@@ -66,13 +66,20 @@ li {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: aqua;
+  background-color:#67798e;
+  margin-right: 12px;
 }
 
 @media screen and (max-width: 574px) {
   .hamburger,
   .nav-branding {
     display: block;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -96,35 +103,37 @@ li {
     gap: 0;
     transition: 0.3s;
     width: 100%;
-  }
-
-  .nav-item {
-    margin: 4px 0;
+    z-index: 10;
+    align-items: left;
   }
 
   .nav-menu.active {
     left: 0;
     cursor: pointer;
-    background-color: #c1c7d0;
+    height: 100vh;
+    background-color: white;
+  }
+
+  .nav-link {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3A4A42;
+    margin-top: 40px;
+    padding-left: 28px;
+  }
+
+  .nav-branding {
+    line-height: 22px;
+  }
+
+  .nav-branding.active {
+    line-height: 24px;
+    color: white;
   }
 }
-
-/* @media screen and (max-width: 375px) {
-  .af {
-    display: none;
-  }
-
-  a.welcome {
-    text-decoration: none;
-    font-weight: 600;
-    color: #28352f;
-    font-size: 20px;
-    line-height: 28px;
-    margin: 0;
-    width: 90px;
-    padding: 0;
-  }
-} */
 
 section.myname {
   width: 67%;
@@ -155,6 +164,7 @@ p.description {
   font-weight: 400;
   margin-bottom: 0;
   width: 100%;
+  padding: 0 24px;
 }
 
 .social-icons {
@@ -666,7 +676,7 @@ textarea {
   width: 190px;
 }
 
-a.welcome {
+a.nav-branding {
   animation-name: logo;
   animation-duration: 4s;
 }
