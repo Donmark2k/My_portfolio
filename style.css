@@ -6,14 +6,13 @@ body {
   background-color: white;
   margin: 0;
   font-family: "Inter", sans-serif;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  overflow-x: none;
 }
 
 a.nav-branding {
@@ -33,7 +32,7 @@ a.nav-branding {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 header {
@@ -66,11 +65,15 @@ header {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color:#67798e;
+  background-color: #67798e;
   margin-right: 12px;
 }
 
 @media screen and (max-width: 574px) {
+  .af {
+    display: none;
+  }
+
   .hamburger,
   .nav-branding {
     display: block;
@@ -104,7 +107,6 @@ header {
     transition: 0.3s;
     width: 100%;
     z-index: 10;
-    align-items: left;
   }
 
   .nav-menu.active {
@@ -120,7 +122,7 @@ header {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #3A4A42;
+    color: #3a4a42;
     margin-top: 40px;
     padding-left: 28px;
   }
@@ -132,6 +134,7 @@ header {
   .nav-branding.active {
     line-height: 24px;
     color: white;
+    opacity: 0;
   }
 }
 
@@ -164,7 +167,7 @@ p.description {
   font-weight: 400;
   margin-bottom: 0;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 12px;
 }
 
 .social-icons {
@@ -201,8 +204,6 @@ p.description {
   position: absolute;
   top: 82%;
   left: 39%;
-
-  /* height: 10%; */
 }
 
 .ad {
@@ -676,7 +677,7 @@ textarea {
   width: 190px;
 }
 
-a.nav-branding {
+.welcome {
   animation-name: logo;
   animation-duration: 4s;
 }
