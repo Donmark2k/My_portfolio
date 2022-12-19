@@ -642,7 +642,8 @@ textarea {
     display: none;
   }
 
-  .rectangle, .af {
+  .rectangle,
+  .af {
     width: 0;
   }
 
