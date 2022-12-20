@@ -133,8 +133,15 @@ header {
 
   .nav-branding.active {
     line-height: 24px;
-    color: white;
     opacity: 0;
+    cursor: none;
+    display: hidden;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
   }
 }
 
