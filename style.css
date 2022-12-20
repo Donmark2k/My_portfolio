@@ -133,8 +133,7 @@ header {
 
   .nav-branding.active {
     line-height: 24px;
-    opacity: 0;
-    cursor: none;
+    visibility: hidden;
   }
 }
 
