@@ -69,6 +69,7 @@ VS code, git, github, figma
 
 Stylelint was used to check errors in style.css
 Webhint was used to check errors in index.html
+Eslint was used to check for erroes in menu.js
 <details>
   <summary>Client</summary>
   <ul>
@@ -99,6 +100,8 @@ Webhint was used to check errors in index.html
 - **[my past project]**
 - **[contact me session]**
 - **[Responsive Version]**
+- **[interactive hamburger menu]**
+
 
 
 
@@ -206,6 +209,11 @@ Example:
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
+**Author2**
+
+- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
+- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oshoke-okolo-665208108/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

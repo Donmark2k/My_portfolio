@@ -10,44 +10,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <header aria-label="navigation" role="navigation">
-      <div><a href="#" class="welcome">Welcome</a></div>
-      <nav role="navigation">
-        <ul>
-          <li><a class="menu-bar" href="#">Portfolio</a></li>
-          <li><a class="menu-bar" href="#">About</a></li>
-          <li><a class="menu-bar" href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="menu-image"><img class="menu-icon" src="img/Union.png" alt="menu bar" /></div>
-      <div><img class="af image-a" src="img/af.png" alt="background  image design" /></div>
-    </header> -->
-    <nav class="navbar navbar-expand-sm navbar-light  d-flex justify-content-center" aria-label="navigation" role="navigation">
-      <div class="container m-3 m-sm-0">
-        <a href="#" class="navbar d-sm-none navbar-brand welcome"> Welcome</a>
-        <button class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse"
-        data-bs-target="#nav-menu">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="nav-menu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link">Portfolio</a>
+
+        <!-- Navigation Section  -->
+
+    <header>
+      <nav class="navbar">
+        <a href="" class="nav-branding welcome">Welcome</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
+                <a href="#contact-me" class="nav-link">Contact</a>
               </li>
-              <li class="nav-item">
-                  <a href="#contact" class="nav-link">Contact</a>
-                </li>
-           </ul>
-           <div><img class="af image-a" src="img/af.png" alt="background  image design" /></div>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </div>
-    </nav>
-  
+
+    
+      </nav>
+      <div><img class="af image-a" src="img/af.png" alt="background  image design" /></div>
+    </header>
+    
+    
 
     <section class="back-pic" aria-label="introduction">
       <section class="myname" aria-label="who I am">
@@ -276,7 +267,7 @@
             </h2>
           </div>
           <div aria-label="contact me form" class="mx-2">
-            <form action="https://formspree.io/f/xjvznrbv" method="post">
+            <form action="https://formspree.io/f/xjvznrbv" method="post" id="contact-me">
               <ul class="contact-me-ul">
                 <li> 
                   <label for="name"></label>
@@ -353,6 +344,7 @@
       </div>
       <p class="mail-address" aria-label="author email address">chukwuemekavp@gmail.com</p>
     </footer>
+    <script src="menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
   </body>
 </html>
