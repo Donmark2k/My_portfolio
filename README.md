@@ -211,9 +211,9 @@ Example:
 
 **Author2**
 
-- GitHub: [@Donmark2k](https://github.com/lorenzoworx)
-- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
+- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
+- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oshoke-okolo-665208108/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
