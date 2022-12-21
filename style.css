@@ -978,3 +978,9 @@ textarea {
     bottom: 3.9999%;
   }
 }
+
+#error-message {
+  color: red;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
