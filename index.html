@@ -88,160 +88,16 @@
     <h2 class="recentwork" id="portfolio" aria-label="my recent work">My Recent Works</h2>
     <img class="line-bar" src="img/Indicator.png" alt="Indicator line" aria-label=" a line demarcation image" />
     <section id="myrecentwork" class="grid-container" aria-label="my recent work" >
-      <!-- <article id="recentcard" class="firstbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
-      <!-- <article id="recentcard" class="secondbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
-      <!-- <article id="recentcard" class="thirdbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
-      <!-- <article id="recentcard" class="fourthbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
-      <!-- <article id="recentcard" class="fifthbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
-      <!-- <article id="recentcard" class="sixthbox">
-        <article class="innerdownbox">
-          <p>
-            Multi-Post Stories<br />
-            Gain+Glory
-          </p>
-          <ul aria-label="Languages used in coding the work">
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">html</a></li>
-          </ul>
-          <div class="button-box">
-            <button class="resumebutton buttons" type="submit" aria-label="view">
-              See Project
-            </button>
-          </div>
-        </article>
-      </article> -->
-
+     
     </section>
 
-    <!-- Mobile pop up -->
-       <section class="mobile-modal" id="portfolios">
-          <!-- <div class="close-icon-modal">
-              <img src="img/close-icon.png" alt="language details" />
-           </div>
-         <div class="modal-img">
-            <img src="img/pop-up.png" alt="language details" />
-         </div>
-
-        <h2  class="modal-h1"> Keeping track of hundreds of
-            components</h2>
-            <ul aria-label="Languages used in coding the work">
-                <li><a href="#">Ruby on rails</a></li>
-                <li><a href="#">css</a></li>
-                <li><a href="#">Javascript</a></li>
-              </ul>
-
-        <p class="modal-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-          printer took a galley of type and scrambled it 1960s with the 
-          releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-
-
-
-        <div class="modal-anchor">
-          <a href="#" class="modal-href"> See Live<img class="modal-href-pic" src="img/see-live.png" alt=" see live icon" /></a>
-          <a href="#"class="modal-href"> See Source<img  class="modal-href-pic" src="img/see-source.png" alt=" see live icon" /></a>
-        </div> -->
+    <!-- Modal pop up session -->
+       <section class="modal-container" >
+        <div class="modal" id="portfolios">
+         
+        </div>
        </section>
+
 
     <!-- About me Section            -->
 
@@ -338,13 +194,13 @@
                     placeholder="Enter text here"
                   ></textarea>
                 </li>
+                 <p id="error-message"> error </p>
                 <li>
-                  <input
+                  <button
                   aria-label="submit your message"
                     type="submit"
-                    value="Get in touch"
-                    class="btn buttons"
-                  />
+                    value=""
+                    class="btn buttons">Get in touch</button>
                 </li>
               </ul>
             </form>
