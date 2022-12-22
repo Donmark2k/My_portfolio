@@ -925,16 +925,17 @@ textarea {
   }
 
   .modal-anchor {
-    width: 70%;
+    width: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 24px auto;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -25%;
   }
 
   .modal-href {
     background-color: #36b37f;
-    padding: 12px 16px;
+    padding: 10px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -943,38 +944,8 @@ textarea {
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
-    width: 189px;
+    width: 100%;
     text-align: center;
-  }
-
-  .modal-href-pic {
-    margin-left: 8px;
-  }
-}
-
-@media screen and (min-width: 1308px) {
-  .modal-anchor {
-    display: flex;
-    justify-content: space-between;
-    width: 29%;
-    position: absolute;
-    right: 13%;
-    bottom: 10%;
-    flex-wrap: wrap;
-  }
-
-  .modal-p {
-    margin-bottom: 44px;
-  }
-}
-
-@media screen and (min-width: 1439px) {
-  .modal-anchor {
-    display: flex;
-    justify-content: space-between;
-    width: 29%;
-    position: absolute;
-    right: 13%;
-    bottom: 3.9999%;
+    margin-right: 20px;
   }
 }
