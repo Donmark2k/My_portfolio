@@ -98,7 +98,7 @@ Eslint was used to check for erroes in menu.js
 - **[introducing myself as a software developer]**
 - **[languages that I can code in]**
 - **[my past project]**
-- **[contact me session]**
+- **[contact me section]**
 - **[Responsive Version]**
 - **[interactive hamburger menu]**
 - **[modal pop up on clicking see project]**
@@ -129,7 +129,9 @@ You have to clone the repository first, then run it on your browser
 
 ### Prerequisites
 
-In order to run this project you need:browser, VS code
+- In order to run this project you need:
+  - browser 
+  - VS code
 
 <!--
 Example command:
