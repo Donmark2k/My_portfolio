@@ -954,4 +954,6 @@ textarea {
   color: red;
   font-size: 20px;
   font-family: "Inter", sans-serif;
+  border: 1px solid red;
+  border-radius: 4px;
 }
