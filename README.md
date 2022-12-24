@@ -102,7 +102,7 @@ Eslint was used to check for erroes in menu.js
 - **[Responsive Version]**
 - **[interactive hamburger menu]**
 - **[modal pop up on clicking see project]**
-- **[Form validation ]**
+
 
 
 
