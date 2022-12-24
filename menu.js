@@ -188,7 +188,7 @@ const error = document.getElementById('error-message');
 error.style.visibility = 'hidden';
 
 function formValidate(event) {
-  if (email.value !== email.value.toLowerCase()) {
+  if (email.value != email.value.toLowerCase()) {
     error.style.visibility = 'visible';
     error.innerHTML = 'Please input your email address in lowercase.';
     event.preventDefault();
