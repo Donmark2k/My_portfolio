@@ -150,8 +150,13 @@ for (let j = 0; j < projects.length; j += 1) {
           <img class="desktopPic" src="${projects[j].desktopImage}" alt="language details" />
           <img class="cardPic" src="${projects[j].cardImage}" alt="language details" />
        </div>
-
-      <h2  class="modal-h1">${projects[j].name}</h2> 
+      <div class="h1-button">
+      <h2  class="modal-h1">${projects[j].name}</h2>
+      <div class="modal-anchor2">
+        <a href="${projects[j].liveLink}" class="modal-href2"> ${projects[j].liveText}<img class="modal-href-pic" src="img/see-live.png" alt=" see live icon" /></a>
+        <a href="${projects[j].sourceLink}"class="modal-href2"> ${projects[j].sourceText}<img  class="modal-href-pic" src="img/see-source.png" alt=" see live icon" /></a>
+      </div>
+      </div>
           <ul aria-label="Languages used in coding the work">
           ${projects[j].technologies
     .map((k) => `<li> <a href="#">${k}</a></li>`).join('')}

@@ -833,8 +833,15 @@ textarea {
   margin-left: 60%;
   margin-top: 36px;
 }
+.modal-anchor2 {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
+  .modal-anchor {
+    display: none;
+  }
+
   .modal {
     display: none;
     position: fixed;
@@ -873,14 +880,47 @@ textarea {
     margin-left: 24px;
   }
 
-  .modal-h1 {
+  .h1-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 24px 0 24px;
+
+  }
+
+  .modal-anchor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 8px;
+    margin-right: 0;
+    justify-content: space-between;
+  }
+
+  .modal-href2 {
+    background-color: #36b37f;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    width: auto;
+    text-align: center;
+    height: 45px;
+  }
+  
+    .modal-h1 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
     width: 55%;
-    margin-left: 24px;
   }
 
   .modal ul {
@@ -922,31 +962,6 @@ textarea {
     margin: 24px;
     padding: 4px;
     margin-bottom: 12px;
-  }
-
-  .modal-anchor {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-left: 45%;
-    margin-top: -25%;
-  }
-
-  .modal-href {
-    background-color: #36b37f;
-    padding: 10px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-    margin-right: 20px;
   }
 }
 
