@@ -833,6 +833,7 @@ textarea {
   margin-left: 60%;
   margin-top: 36px;
 }
+
 .modal-anchor2 {
   display: none;
 }
@@ -885,7 +886,6 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 24px 0 24px;
-
   }
 
   .modal-anchor2 {
@@ -913,8 +913,8 @@ textarea {
     text-align: center;
     height: 45px;
   }
-  
-    .modal-h1 {
+
+  .modal-h1 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
