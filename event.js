@@ -37,3 +37,42 @@ hh.onmouseover = function() {
 hh.onmouseout = function() {
     hh.style.color = 'green';
 }
+
+var cars = ["Saab","Volvo","BMW"];
+var text = "";
+for (let i=0; i< cars.length; i++ ){
+    text += cars[i] + " ";
+
+}
+console.log(text);
+
+for (let i=0; i< cars.length; i++ ){
+    console.log(cars[i]);
+}
+
+
+var fruits, text;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+
+console.log(text)
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+}
+
+var fruits, text, i, car;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.forEach ( function(fruit) {
+    console.log(fruit);
+
+});
+car = "";
+fruits.forEach ( function(i) {
+    car += i + " ";
+
+});
+console.log(car);
