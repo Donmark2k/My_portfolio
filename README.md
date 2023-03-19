@@ -24,10 +24,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://cdn.icon-icons.com/icons2/3586/PNG/512/token_crypto_portfolio_icon_225985.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>My Portfolio README Template</b></h3>
 
 </div>
 
