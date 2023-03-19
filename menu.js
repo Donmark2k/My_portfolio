@@ -18,11 +18,12 @@ document.querySelectorAll('.nav-link').forEach((n) => n
 const projects = [{
   id: '1',
   name: ' Covid-19 Countries\' Statistics ' ,
-  cardImage: 'img/covidD.png',
+  homeImage: 'img/covidM.png',
+  cardImage: 'img/covidH.png',
   desktopImage: 'img/covidD.png',
   closeIcon: 'img/close-icon.png',
   description: 'Covid-19 Countries\' Statistics ',
-  technologies: ['Redux', 'Bootstrap', 'Javascript', 'html'],
+  technologies: ['redux', 'Bootstrap', 'reactJS'],
   modalInfo: 'A COVID-19 statistics app is a mobile application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the COVID-19 pandemic.  The app can help users track the current situation of the pandemic in their country or region, and also provide information on the trends and patterns of the virus globally.',
   liveText: 'See Live',
   seeIcon: '',
@@ -34,6 +35,7 @@ const projects = [{
 {
   id: '2',
   name: ' Keeping track of hundreds of components',
+  homeImage: 'img/covidHh.png',
   cardImage: 'img/pop-up.png',
   desktopImage: 'img/desktop-modal.png',
   closeIcon: 'img/close-icon.png',
@@ -50,6 +52,7 @@ const projects = [{
 {
   id: '3',
   name: ' Keeping track of hundreds of components',
+  homeImage: 'img/covidHh.png',
   cardImage: 'img/pop-up.png',
   closeIcon: 'img/close-icon.png',
   desktopImage: 'img/desktop-modal.png',
@@ -66,6 +69,7 @@ const projects = [{
 {
   id: '4',
   name: ' Keeping track of hundreds of components',
+  homeImage: 'img/covidHh.png',
   cardImage: 'img/pop-up.png',
   desktopImage: 'img/desktop-modal.png',
   closeIcon: 'img/close-icon.png',
@@ -82,6 +86,7 @@ const projects = [{
 {
   id: '5',
   name: ' Keeping track of hundreds of components',
+  homeImage: 'img/covidHh.png',
   cardImage: 'img/pop-up.png',
   desktopImage: 'img/desktop-modal.png',
   closeIcon: 'img/close-icon.png',
@@ -96,8 +101,9 @@ const projects = [{
   sourceLink: 'https://github.com/Donmark2k/My_portfolio',
 },
 {
-  id: '006',
+  id: '6',
   name: ' Keeping track of hundreds of components',
+  homeImage: 'img/covidHh.png',
   cardImage: 'img/pop-up.png',
   desktopImage: 'img/desktop-modal.png',
   closeIcon: 'img/close-icon.png',
@@ -115,22 +121,22 @@ const projects = [{
 const myrecentwork = document.querySelector('#myrecentwork');
 for (let i = 0; i < projects.length; i += 1) {
   myrecentwork.innerHTML += `
-      <article id="recentcard" class="firstbox">
-      <article class="innerdownbox">
+      <article id="recentCard" class="firstbox">
+      <div class="recentImage"> 
+      <img class="articlePic" src="${projects[i].homeImage}" alt="image details" /></div>
         <p>
           ${projects[i].description}
         </p>
         <ul aria-label="Languages used in coding the work">
           ${projects[i].technologies
-    .map((j) => `<li> <a href="#">${j}</a></li>`).join('')}
+    .map((j) => `<li> ${j}</li>`).join('')}
         </ul>
 
         <div class="button-box">
-          <button class="resumebutton buttons" type="submit" id="btn-${i}" aria-label="view">
+          <button class="see-more buttons" type="submit" id="btn-${i}" aria-label="view">
             See Project
           </button>
         </div>
-      </article>
     </article>
       `;
 }

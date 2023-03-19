@@ -13,6 +13,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  list-style-type: none;
+
+}
+
+a {
+  /* text-decoration: none; */
 }
 
 a.nav-branding {
@@ -312,22 +318,29 @@ h2 {
   position: relative;
 }
 
-#recentcard {
-  border: 1px solid #d0d9d4;
+#recentCard {
+  border: 2px solid #d0d9d4;
   width: 100%;
-  height: 474px;
+  height: 575px;
   border-radius: 8px;
   background-color: #ebf0ee;
-  position: relative;
+  box-shadow:
+    0 5px 12px rgba(5, 50, 200, 0.5),
+    0 5px 12px rgba(5, 50, 200, 0.5);
 }
 
-.innerdownbox {
-  width: 100%;
-  height: 222px;
+.recentImage {
+  height: 390px;
   border-radius: 8px;
-  background-color: white;
-  position: absolute;
-  bottom: 0;
+  border-bottom: 3px solid green;
+}
+
+img.articlePic {
+  height: 380px;
+  width: 90%;
+  border-radius: 12px;
+  margin: 12px auto;
+  display: block;
 }
 
 .button-box {
@@ -335,47 +348,45 @@ h2 {
   justify-content: center;
 }
 
-.innerdownbox p {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
+#recentCard p {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
-  align-items: center;
-  text-align: center;
-  margin: 16px;
-  color: #3a4a42;
+  text-align: left;
+  padding-top: 12px;
+  color:#36b37f;
+  margin-left: 2%;
 }
 
-.innerdownbox ul {
+#recentCard ul {
   display: flex;
-  margin-top: 0;
   flex-direction: row;
   justify-content: space-around;
-  list-style-type: none;
-  text-decoration: none;
   flex-wrap: wrap;
-  border: none;
   padding: 0;
-  margin-bottom: 24px;
 }
 
-.innerdownbox li a {
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  color: #3a4a42;
-  background-color: #ebf0ee;
+#recentCard li {
+  color: #172b4d;
+  background-color: #d0d9d4;
   padding: 8px 12px 8px 12px;
-  border: none;
   border-radius: 8px;
   width: auto;
-  list-style-type: none;
   font-weight: 600;
   font-size: 12px;
 }
 
+.see-more {
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 120px;
+  font-size: 17px;
+  border: none;
+}
+
 .resumebutton {
-  font-family: "Inter", sans-serif;
   background-color: #36b37f;
   color: white;
   padding: 12px;
@@ -404,6 +415,7 @@ h2 {
   transition-duration: 0.4s;
   cursor: pointer;
   opacity: 0.6;
+  cursor: pointer; 
 }
 
 .buttons:hover {
@@ -901,7 +913,6 @@ textarea {
   .modal-href2 {
     background-color: #36b37f;
     padding: 10px;
-    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -915,7 +926,6 @@ textarea {
   }
 
   .modal-h1 {
-    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -940,7 +950,6 @@ textarea {
 
   .modal li a {
     text-decoration: none;
-    font-family: "Inter", sans-serif;
     color: #3a4a42;
     background-color: #ebf0ee;
     padding: 8px 12px 8px 12px;
@@ -953,7 +962,6 @@ textarea {
   }
 
   .modal-p {
-    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -968,7 +976,6 @@ textarea {
 #error-message {
   color: red;
   font-size: 20px;
-  font-family: "Inter", sans-serif;
   border: 1px solid red;
   border-radius: 4px;
 }
