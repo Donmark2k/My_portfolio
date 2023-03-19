@@ -26,9 +26,7 @@ After you're finished please remove all the comments and instructions!
 
   <img src="https://cdn.icon-icons.com/icons2/3586/PNG/512/token_crypto_portfolio_icon_225985.png" alt="logo" width="140"  height="auto" />
   <br/>
-
   <h3><b>My Portfolio README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -77,18 +75,14 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://donmark2k.github.io/My_portfolio/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Project Screenshots
-
 ![Home page](./img/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,7 +92,6 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
-
 In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
@@ -118,18 +111,15 @@ To get a local copy of this project up and running, follow these steps.
 
 ### Usage
 To run the project, execute the following command:
-
 - In visual studio  press `alt + L + O` then the project will open on your browser "http://127.0.0.1:5500/".
 
 ### Run tests
-
 - `npx stylelint "/*.{css,scss}"**`: To test css code
 - `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
 - `npx eslint .` : To test Eslint Report
 - `npx eslint . --fix`: To fix some JS errors if found
 
 ### Deployment
-
 You can deploy this project using:
 - Github pages
 
