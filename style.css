@@ -14,11 +14,11 @@ body {
   box-sizing: border-box;
   padding: 0;
   list-style-type: none;
-
-}
+  }
 
 a {
-  /* text-decoration: none; */
+  text-decoration: none;
+  color: white;
 }
 
 a.nav-branding {
