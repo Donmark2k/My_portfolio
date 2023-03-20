@@ -188,6 +188,93 @@ for (let j = 0; j < projects.length; j += 1) {
   });
 }
 
+const technology = [
+  {
+  id: '1',
+  name: ' JavaScript' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/javaScript.png?raw=true',
+},
+{
+  id: '2',
+  name: ' Bootstrap' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/bootstrap.png?raw=true',
+},
+{
+  id: '3',
+  name: ' CSS' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/css.png?raw=true',
+},
+{
+  id: '4',
+  name: ' React' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/react.png?raw=true',
+},
+ {
+  id: '5',
+  name: ' Redux' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/redux.png?raw=true',
+},
+{
+  id: '6',
+  name: ' webpack' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/webpack.png?raw=true',
+}, {
+  id: '7',
+  name: ' Ruby' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/ruby.png?raw=true',
+},
+{
+  id: '8',
+  name: ' Rail' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/rail.png?raw=true',
+}, 
+{
+  id: '9',
+  name: ' Vite' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/vite.png?raw=true',
+},
+{
+  id: '10',
+  name: ' Postman' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/postman.png?raw=true',
+}, 
+{
+  id: '11',
+  name: ' Gitflow' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/gitflow.png?raw=true',
+},
+{
+  id: '12',
+  name: ' Kanban' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/kanban.png?raw=true',
+}, 
+{
+  id: '13',
+  name: ' Jest' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/jest.png?raw=true',
+},
+{
+  id: '14',
+  name: ' HTML' ,
+  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/html.png?raw=true',
+}
+]
+
+const showTechnology = document.querySelector('.ul-technology');
+for (let i = 0; i < technology.length; i += 1) {
+  showTechnology.innerHTML += `
+      <li class="li-technology">
+      <img src="${technology[i].image}" alt="technology icon details" /></div>
+        <p>
+          ${technology[i].name}
+        </p>
+    </li>
+      `;
+}
+
+
+
+
 // Form validation
 
 const form = document.getElementById('contact-me');

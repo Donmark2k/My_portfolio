@@ -263,6 +263,15 @@ img.articlePic {
   border: none;
 }
 
+.li-technology img {
+  height: 48px;
+  width: 48px;
+}
+
+
+
+
+
 .resumebutton {
   background-color: green;
   color: white;
