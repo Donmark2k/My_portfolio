@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const navMenu = document.querySelector('.nav-menu-icon');
 const navLogo = document.querySelector('.nav-branding');
 
 hamburger.addEventListener('click', () => {
