@@ -93,6 +93,38 @@ nav {
   margin: 0 auto;
 }
 
+.back-pic {
+  background: url(img/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.9;
+  width: 100%;
+}
+h1 {
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 60px;
+  letter-spacing: 0.37px;
+  font-weight: 800;
+}
+
+span {
+  color: #36b37e;
+}
+
+p.description {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  width: 80%;
+  padding: 0 18px;
+  display: block;
+  margin: 0 auto;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -100,7 +132,7 @@ nav {
   .nav-menu-icon {
     display: block;
   }
-  
+
 .hamburger {
   display: none;
 }
@@ -123,36 +155,11 @@ nav {
   /* margin: 0 auto; */
 }
 
-section.myname {
+/* section.myname {
   width: 67%;
   margin: 26px auto 0 auto;
-}
+} */
 
-h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 48px;
-  color: #172b4d;
-  font-style: normal;
-  text-align: center;
-  padding-top: 10rem;
-  letter-spacing: 0.37px;
-  font-weight: 800;
-}
-
-span {
-  color: #36b37f;
-}
-
-p.description {
-  font-size: 20px;
-  color: #172b4d;
-  line-height: 28px;
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 0;
-  width: 100%;
-  padding: 0 12px;
-}
 
 /* .social-icons {
   display: flex;
@@ -163,101 +170,9 @@ p.description {
   padding: 0;
 } */
 
-.back-pic {
-  background: url(img/Groupline.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.aa {
-  position: absolute;
-  top: 27%;
-  left: 1%;
-}
-
-.ab {
-  position: absolute;
-  top: 100%;
-  left: 18%;
-  height: 30%;
-}
-
-.ac {
-  position: absolute;
-  top: 82%;
-  left: 39%;
-}
-
-.ad {
-  position: absolute;
-  top: 72%;
-  right: 15%;
-  height: 55%;
-}
-
-.ae {
-  position: absolute;
-  top: 20%;
-  right: 0;
-  height: 70%;
-}
-
-.ag {
-  position: absolute;
-  top: 1%;
-  left: 30%;
-  height: 5%;
-}
-
-.af {
-  position: absolute;
-  top: 0;
-  right: 18%;
-}
-
-@media screen and (max-width: 1378px) {
-  .image-a {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1378px) {
-  section.myname {
-    background: url(img/bgimage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  h1.introduction {
-    margin: 0 24px 0 24px;
-    font-family: "Inter", sans-serif;
-    font-size: 40px;
-    color: #172b4d;
-    font-style: normal;
-    text-align: center;
-    padding-top: 74px;
-  }
-
-  p.description {
-    margin: 0 24px 0 24px;
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    color: #172b4d;
-    line-height: 28px;
-    text-align: center;
-    font-weight: 400;
-    max-width: 85%;
-  }
-}
 
 .arrow-full {
-  margin: 64px auto 0 auto;
+  margin: 4px auto 0 auto;
   width: 10%;
   display: flex;
   justify-content: center;
@@ -266,23 +181,9 @@ p.description {
 h2 {
   font-size: 40px;
   color: #172b4d;
-  font-family: "Inter", sans-serif;
   text-align: center;
-  line-height: 52px;
-  width: 80%;
-  margin: 120px auto 52px auto;
-  padding: 0;
-}
-
-.line-bar {
-  display: none;
-}
-
-@media screen and (max-width: 375px) {
-  .line-bar {
-    display: block;
-    margin: 24px auto 62px auto;
-  }
+  margin: 60px auto 22px auto;
+  font-weight: 800;
 }
 
 .grid-container {
@@ -291,10 +192,7 @@ h2 {
   column-gap: 24px;
   row-gap: 32px;
   width: 80%;
-  justify-content: start;
-  align-content: center;
   margin: 0 auto 0 auto;
-  position: relative;
 }
 
 #recentCard {
@@ -366,23 +264,15 @@ img.articlePic {
 }
 
 .resumebutton {
-  background-color: #36b37f;
+  background-color: green;
   color: white;
   padding: 12px;
   border-radius: 4px;
-  width: 120px;
   font-size: 17px;
-  text-align: center;
-  font-style: normal;
   border: none;
-  margin-top: 12px;
+  margin: 12px 0;
   cursor: pointer;
-}
-
-.card-button {
   width: 155px;
-  padding: 12px;
-  margin-bottom: 24px;
 }
 
 .resume-button {
@@ -408,12 +298,11 @@ img.articlePic {
 }
 
 .describeme {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  text-align: center;
+  font-size: 17px;
+  text-align: left;
   font-weight: 400;
   color: #42526e;
-  width: 60%;
+  width: 100%;
   margin: 0 auto 24px auto;
 }
 
