@@ -110,7 +110,7 @@ nav {
 }
 
 .back-pic {
-  background: url(img/bg2.png);
+  background: url(img/bg3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -371,7 +371,6 @@ ul {
 .modal-href {
   background-color: #36b37f;
   padding: 12px 16px;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -482,8 +481,8 @@ ul {
   float: right;
   position: absolute;
   z-index: 3;
-  width: 20px;
-  margin-left: 60%;
+  width: 29px;
+  margin-left: 75%;
   margin-top: 36px;
 }
 
@@ -510,7 +509,7 @@ ul {
   .close {
     float: right;
     width: 35px;
-    right: 13%;
+    right: 4%;
     margin-top: 24px;
     background-color: #67798e;
     margin-bottom: 24px;
@@ -653,5 +652,13 @@ ul {
     transform: translateY(-10px);
     transition-duration: 1s;
     transition-timing-function: ease-in;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .modal-href {
+    padding: 6px 8px;
+    font-size: 15px;
+    
   }
 }
