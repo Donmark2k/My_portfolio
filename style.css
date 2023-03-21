@@ -5,6 +5,7 @@ body {
   width: 100%;
   background-color: white;
   margin: 0;
+  padding: 0;
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
   position: relative;
@@ -115,7 +116,6 @@ nav {
   background-position: center;
   position: relative;
   opacity: 0.9;
-  width: 100%;
 }
 
 h1 {
@@ -136,9 +136,7 @@ p.description {
   color: #fff;
   text-align: center;
   font-weight: 400;
-  width: 80%;
-  padding: 0 18px;
-  display: block;
+  padding: 0 8%;
   margin: 0 auto;
 }
 
@@ -163,8 +161,9 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(327px, 3fr));
   column-gap: 24px;
   row-gap: 32px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0 auto;
+  padding: 0 8%;
 }
 
 #recentCard {
@@ -239,8 +238,9 @@ img.articlePic {
   gap: 24px;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 8%;
 }
 
 .ul-technology {
@@ -310,6 +310,10 @@ form {
   margin: 0 auto;
 }
 
+ul {
+  padding-left: 0;
+}
+
 #name,
 #mail {
   padding: 15px 16px;
@@ -339,30 +343,6 @@ form {
   text-align: center;
   color: #fff;
   margin: 0;
-}
-
-.image-last {
-  position: absolute;
-  top: 35%;
-  right: 0;
-  bottom: 20%;
-  height: 55%;
-}
-
-.image-middle {
-  position: absolute;
-  top: 65%;
-  right: 75%;
-  bottom: 20%;
-  height: 15%;
-}
-
-.image-first {
-  position: absolute;
-  top: 45%;
-  left: 0;
-  bottom: 20%;
-  height: 40%;
 }
 
 .welcome {
