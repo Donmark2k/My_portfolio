@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/70657c6fc0.js" crossorigin="anonymous"></script>
     <title aria-label="title">Chukwuemeka's Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -23,11 +22,14 @@
             <li class="nav-item"> <a href="#contact-me" class="nav-link">Contact</a></li>
         </ul>
         <ul class="social-icons" aria-label="social-icons">
-            <li> <a href=""><img src="img/twitter.png" alt=" twitter icon" /></a> </li>
-            <li> <a href=""><img src="img/Linkedin.png" alt=" Linkedin icon" /></a> </li>
-            <li>  <a href=""><img src="img/M.png" alt=" M icon" /></a> </li>
-            <li> <a href=""><img src="img/people.png" alt=" Github icon" /></a> </li>
-            <li>  <a href=""><img src="img/twohand.png" alt=" angel list icon" /></a> </li>
+            <li> <a href="https://twitter.com/donmark2k"><img src="img/twitter.png" alt=" twitter icon" /></a> </li>
+            <li> <a href="https://www.linkedin.com/mwlite/in/chukwuemeka-ochuba"><img src="img/Linkedin.png" alt=" Linkedin icon" /></a> </li>
+            <li>  <a href=" https://medium.com/@chukwuemekavp/from-a-chorister-to-developer-what-i-have-learned-and-how-it-can-help-you-become-a-better-bfb426008680"><img src="img/M.png" alt=" M icon" /></a> </li>
+            <li> <a href="https://github.com/donmark2k"><img src="img/people.png" alt=" Github icon" /></a> </li>
+            <li>  <a href="https://wellfound.com/u/chukwuemekaochuba"><img src="img/twohand.png" alt=" angel list icon" /></a> </li>
+            <li>  <a href="https://api.whatsapp.com/send?phone=2347063308955"><img src="img/whatsapp.png" alt=" angel list icon" /></a> </li>
+            <li>  <a href="mailto:chukwuemekavp@gmail.com?subject=Message Chukwuemeka%20Text&body=Message%20Body%20Text"><img src="img/mail.png" alt=" angel list icon" /></a> </li>
+
          </ul>
         </div>
         <div class="hamburger">
@@ -82,7 +84,7 @@
       <h2>ABOUT ME</h2>
       <div class="about-me-container"> 
         <div class="journey">
-            <p class="describeme">
+            <p class="describeMe">
                 To supplement my skills and knowledge, I enrolled in Microverse, an online school that
                 teaches people to become professional full-stack developers. This improves my research
                 and learning skills, allowing me to rapidly learn new concepts and programming languages.
@@ -102,147 +104,86 @@
                 If you need assistance with a coding project, please do not hesitate to contact me.
                 
             </p>
-            <div class="resume-button">
-              <button  class="resumebutton buttons get-my card-button" type="submit" aria-label="view my resume">
+              <button  class="resume-button  " type="submit" aria-label="view my resume">
                   <a href="https://drive.google.com/file/d/1pcX9Yv9GdPCquj4H3YKd4-0I-edSWv3q/view?usp=sharing"> Get My Resume</a>
               
               </button>
-            </div>
 
       </div>
       <div class="about-me-technology">
-
-        <ul class="ul-technology">
-            <!-- <li class="li-technology">
-              <img src="https://github.com/Donmark2k/My_portfolio/blob/latest/icon/bootstrap.png?raw=true" alt="logo">
-              <p>JavaScript</p>
-            </li> -->
-        </ul>
+        <ul class="ul-technology"> </ul>
       </div>
-     </div>
-      
+     </div>  
     </article>
 
-    <section class="grid-container" aria-label="working experience">
-      <article class="aboutmebox" aria-label="My Expertise ">
-        <img src="img/languages.png" alt="language details" />
-        <p class="describeaboutmebox">Languages</p>
-        <ul aria-label=" Programming languages that I can code with">
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">Ruby</a></li>
-          <li><a href="#">Html</a></li>
-          <li><a href="#">CSS</a></li>
+    <div aria-label="contact me form" class="">
+        <h2 id="contact">   CONTACT ME    </h2>
+      <form action="https://formspree.io/f/xjvznrbv" method="post" id="contact-me">
+        <ul class="contact-me-ul">
+          <li> 
+            <label for="name"></label>
+            <input
+              aria-label="Your name"
+              type="text"
+              id="name"
+              maxlength="30"
+              name="user_name"
+              required
+              placeholder="fullname"
+            />
+          </li>
+          <li> <label for="user_email"></label>
+            <input
+              aria-label="Your email address"
+              type="email"
+              id="mail"
+              name="user_email"
+              required
+              placeholder="Email address"
+            />
+          </li>
+          <li> <label for="user_message"></label>
+            <textarea
+              aria-label="Your message"
+              id="msg"
+              name="user_message"
+              maxlength="500"
+              required
+              placeholder="Enter text here"
+            ></textarea>
+          </li>
+          <p id="error-message"> error </p>
+          <li>
+            <button
+            aria-label="submit your message"
+              type="submit"
+              value=""
+              class="btn-get ">Get in touch</button>
+          </li>
         </ul>
-      </article>
-      <article class="aboutmebox" aria-label="My Expertise ">
-        <img src="img/frameworks.png" alt="frameworks details" />
-        <p class="describeaboutmebox">Frameworks</p>
-        <ul aria-label=" Programming languages that I can code with">
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby on rails</a></li>
-          <li><a href="#">Rspec</a></li>
-          <li><a href="#">Capybara</a></li>
-          <li><a href="#">Selenium</a></li>
-        </ul>
-      </article>
-      <article class="aboutmebox" aria-label="My Expertise ">
-        <img src="img/skills.png" alt="skills details" />
-        <p class="describeaboutmebox">Skills</p>
-        <ul aria-label=" Programming languages that I can code with">
-          <li><a href="#">Codekit</a></li>
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Codepen</a></li>
-          <li><a href="#">Gitlab</a></li>
-          <li><a href="#">Terminal</a></li>
-        </ul>
-      </article>
-    </section>
+      </form>
+    </div>
 
-    <footer class="contact-me" aria-label=" footer section" id="contact">
-      <div>
-        <div class="last-container" aria-label="My message" class="justify-content-center">
-          <div class="last-paragraph">
-            <h2>
-              I'm always interested in hearing about new projects, so if you'd
-              like to chat please get in touch.
-            </h2>
-          </div> 
-          <div aria-label="contact me form" class="mx-2">
-            <form action="https://formspree.io/f/xjvznrbv" method="post" id="contact-me">
-              <ul class="contact-me-ul">
-                <li> 
-                  <label for="name"></label>
-                  <input
-                    aria-label="Your name"
-                    type="text"
-                    id="name"
-                    maxlength="30"
-                    name="user_name"
-                    required
-                    placeholder="fullname"
-                  />
-                </li>
-                <li> <label for="user_email"></label>
-                  <input
-                    aria-label="Your email address"
-                    type="email"
-                    id="mail"
-                    name="user_email"
-                    required
-                    placeholder="Email address"
-                  />
-                </li>
-                <li> <label for="user_message"></label>
-                  <textarea
-                    aria-label="Your message"
-                    id="msg"
-                    name="user_message"
-                    maxlength="500"
-                    required
-                    placeholder="Enter text here"
-                  ></textarea>
-                </li>
-                <p id="error-message"> error </p>
-                <li>
-                  <button
-                  aria-label="submit your message"
-                    type="submit"
-                    value=""
-                    class="btn buttons">Get in touch</button>
-                </li>
-              </ul>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="full" aria-label=" footer background image decoration">
-        <img class="image-down" src="img/contact-form.png" alt="bottom image" />
+    <footer class="footer" aria-label=" footer section" >
+           <div class="full" aria-label=" footer background image decoration">
+        <!-- <img class="image-down" src="img/contact-form.png" alt="bottom image" />
         <img class="image-first" src="img/first.png" alt="bottom image" />
         <img class="image-middle" src="img/middle.png" alt="bottom image" />
-        <img class="image-last" src="img/last.png" alt="bottom image" />
-      </div>
-      <div class="dash-line"aria-label=" footer background image decoration">
-        <img class="rectangle" src="img/rectangle.png" alt="bottom image" />
+        <img class="image-last" src="img/last.png" alt="bottom image" /> -->
       </div>
       <div>
-        <ul class="icon-contact social-icons" aria-label="social-icons" id="social-icon">
-          <li>
-            <a href=""><img src="img/twitter.png" alt=" twitter icon" /></a>
-          </li>
-          <li>
-            <a href=""><img src="img/Linkedin.png" alt=" Linkedin icon" /></a>
-          </li>
-          <li>
-            <a href=""><img src="img/M.png" alt=" M icon" /></a>
-          </li>
-          <li>
-            <a href=""><img src="img/people.png" alt=" Github icon" /></a>
-          </li>
-          <li>
-            <a href=""><img src="img/twohand.png" alt=" angel list icon" /></a>
-          </li>
-        </ul>
+        <ul class=" social-icons" aria-label="social-icons" id="social-icon">
+            <li> <a href="https://twitter.com/donmark2k"><img src="img/twitter.png" alt=" twitter icon" /></a> </li>
+            <li> <a href="https://www.linkedin.com/mwlite/in/chukwuemeka-ochuba"><img src="img/Linkedin.png" alt=" Linkedin icon" /></a> </li>
+            <li>  <a href=" https://medium.com/@chukwuemekavp/from-a-chorister-to-developer-what-i-have-learned-and-how-it-can-help-you-become-a-better-bfb426008680"><img src="img/M.png" alt=" M icon" /></a> </li>
+            <li> <a href="https://github.com/donmark2k"><img src="img/people.png" alt=" Github icon" /></a> </li>
+            <li>  <a href="https://wellfound.com/u/chukwuemekaochuba"><img src="img/twohand.png" alt=" angel list icon" /></a> </li>
+            <li>  <a href="https://api.whatsapp.com/send?phone=2347063308955"><img src="img/whatsapp.png" alt=" angel list icon" /></a> </li>
+            <li>  <a href="mailto:chukwuemekavp@gmail.com?subject=Message Chukwuemeka%20Text&body=Message%20Body%20Text"><img src="img/mail.png" alt=" angel list icon" /></a> </li>
+
+          </ul>
       </div>
+      <p class="mail-address" aria-label="author email address">Chukwuemeka Ochuba  &copy; 2023</p>
       <p class="mail-address" aria-label="author email address">chukwuemekavp@gmail.com</p>
     </footer>
     <script src="menu.js"></script>
