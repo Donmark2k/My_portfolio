@@ -16,8 +16,7 @@ body {
   padding: 0;
   list-style-type: none;
   position: relative;
-
-  }
+}
 
 a {
   text-decoration: none;
@@ -26,12 +25,12 @@ a {
 
 header {
   position: fixed;
-  z-index: 50;
+  z-index: 1;
   width: 100%;
   background-color: #fff;
   box-shadow:
-  0 5px 12px rgba(5, 50, 200, 0.5),
-  0 5px 12px rgba(5, 50, 200, 0.5);
+    0 5px 12px rgba(5, 50, 200, 0.5),
+    0 5px 12px rgba(5, 50, 200, 0.5);
 }
 
 a.nav-branding {
@@ -69,17 +68,16 @@ nav {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-
 .nav-menu-icon {
   position: fixed;
   left: -100%;
   flex-direction: column;
-  top: 70px;
+  top: 50px;
   text-align: center;
-  gap: 0;
   transition: 0.3s;
   width: 100%;
   z-index: 10;
+  padding-top: 24px;
 }
 
 .nav-menu-icon.active {
@@ -90,10 +88,15 @@ nav {
   opacity: 0.95;
 }
 
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .nav-link {
   font-weight: 600;
   color: #3a4a42;
-  margin-top: 40px;
 }
 
 .social-icons {
@@ -102,6 +105,7 @@ nav {
   justify-content: space-between;
   width: 300px;
   margin: 0 auto;
+  padding-top: 24px;
 }
 
 .back-pic {
@@ -113,9 +117,10 @@ nav {
   opacity: 0.9;
   width: 100%;
 }
+
 h1 {
   font-size: 48px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-top: 150px;
   letter-spacing: 0.37px;
@@ -128,7 +133,7 @@ span {
 
 p.description {
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   font-weight: 400;
   width: 80%;
@@ -137,47 +142,12 @@ p.description {
   margin: 0 auto;
 }
 
-
-@media screen and (min-width: 992px) {
-
-  .nav-menu-icon {
-    display: flex;
-  left: 30%;
-  flex-direction: row;
-  top: 8px;
-  text-align: center;
-  width: 60%;
-  z-index: 1;
-  justify-content: space-between;
-  margin: auto 0;
-  }
-
-.hamburger {
-  display: none;
-}
-.nav-menu {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-}
-
-.nav-link {
-  font-weight: 600;
-  color: #3a4a42;
-  margin-top: 0;
-}
-.social-icons {
-margin: auto 0;
-}
-  
-}
-
-
 .arrow-full {
-  margin: 4px auto 0 auto;
+  margin: 14px auto;
   width: 10%;
   display: flex;
   justify-content: center;
+  padding-bottom: 24px;
 }
 
 h2 {
@@ -227,22 +197,19 @@ img.articlePic {
   justify-content: center;
 }
 
+.li-technology p {
+  font-size: 12px;
+  text-align: center;
+}
+
 #recentCard p {
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   text-align: left;
   padding-top: 12px;
-  color:#36b37f;
+  color: #36b37f;
   margin-left: 2%;
-}
-
-#recentCard ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0;
 }
 
 #recentCard li {
@@ -263,21 +230,23 @@ img.articlePic {
   width: 120px;
   font-size: 17px;
   border: none;
+  margin-top: 3px;
 }
+
 .about-me-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 2fr));
-    gap: 24px;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .ul-technology {
   display: flex;
   flex-wrap: wrap;
-    gap: 34px;
+  gap: 34px;
 }
 
 .li-technology img {
@@ -285,20 +254,15 @@ img.articlePic {
   width: 50px;
 }
 
-.li-technology p {
-  font-size: 12px;
-  text-align: center;
-}
-
-.resume-button, .btn-get {
+.resume-button,
+.btn-get {
   background-color: #172b4d;
   color: white;
   padding: 6px 10px;
   font-size: 17px;
   border: none;
-  margin: 4px 0;
+  margin: 1px 0;
   cursor: pointer;
-  box-shadow: 2px 2px black;
 }
 
 .buttons {
@@ -313,6 +277,9 @@ img.articlePic {
   opacity: 1;
 }
 
+.click:hover {
+  color: #36b37e;
+}
 
 .describeMe {
   font-size: 14px;
@@ -321,21 +288,23 @@ img.articlePic {
   width: 100%;
 }
 
-
 footer {
   margin: 0;
   background-color: #172b4d;
+  padding-bottom: 12px;
 }
 
 footer .social-icons {
-  color: white;
-  margin: 0 auto;
-  background-color: #fff;
+  margin: 12px auto;
+  padding-top: 24px;
 }
 
+i {
+  font-size: 30px;
+  color: #fff;
+}
 
-
- form {
+form {
   width: 350px;
   display: block;
   margin: 0 auto;
@@ -358,13 +327,19 @@ footer .social-icons {
   border: 2px solid #172b4d;
 }
 
+#error-message {
+  color: red;
+  font-size: 20px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
 .mail-address {
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
 }
-
 
 .image-last {
   position: absolute;
@@ -390,33 +365,6 @@ footer .social-icons {
   height: 40%;
 }
 
-
-@media screen and (max-width: 879px) {
-  .image-first,
-  .image-middle,
-  .image-last,
-  .rectangle {
-    display: none;
-  }
-
-
-
-  .image-down {
-    position: absolute;
-    top: 77%;
-    right: 0;
-  }
-}
-
-.get-my {
-  transition-timing-function: ease-in;
-  transition-duration: 2s;
-}
-
-.get-my:hover {
-  width: 190px;
-}
-
 .welcome {
   animation-name: logo;
   animation-duration: 4s;
@@ -430,27 +378,6 @@ footer .social-icons {
   to {
     color: yellow;
   }
-}
-
-@media screen and (min-width: 847px) {
-  .aboutmebox:hover,
-  #recentcard:hover {
-    transform: translateY(-10px);
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
-  }
-}
-
-.description:hover {
-  cursor: pointer;
-  font-size: 24px;
-}
-
-.btn:hover {
-  width: 150px;
-  font-size: 20px;
-  transition-duration: 0.8s;
-  transition-timing-function: ease-in;
 }
 
 .modal-anchor {
@@ -538,6 +465,14 @@ footer .social-icons {
   padding: 0;
   margin-bottom: 24px;
   width: 100%;
+}
+
+#recentCard ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .modal li a {
@@ -699,9 +634,44 @@ footer .social-icons {
   }
 }
 
-#error-message {
-  color: red;
-  font-size: 20px;
-  border: 1px solid red;
-  border-radius: 4px;
+@media screen and (min-width: 992px) {
+  .nav-menu-icon {
+    display: flex;
+    left: 35%;
+    flex-direction: row;
+    top: 15px;
+    text-align: center;
+    width: 60%;
+    z-index: 1;
+    justify-content: space-between;
+    margin: auto 0;
+    padding-top: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .nav-link {
+    font-weight: 600;
+    color: #3a4a42;
+    margin-top: 0;
+  }
+
+  .social-icons {
+    padding-top: 0;
+    margin: auto 0;
+  }
+
+  #recentCard:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+  }
 }

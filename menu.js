@@ -17,7 +17,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n
 // pop-up menu
 const projects = [{
   id: '1',
-  name: ' Covid-19 Countries\' Statistics ' ,
+  name: ' Covid-19 Countries\' Statistics ',
   homeImage: 'img/covidM.png',
   cardImage: 'img/covidH.png',
   desktopImage: 'img/covidD.png',
@@ -91,7 +91,7 @@ const projects = [{
   desktopImage: 'img/gdD.png',
   closeIcon: 'img/close-icon.png',
   description: 'Graphic Designer Summit',
-  technologies: [ 'css', 'Javascript', 'html'],
+  technologies: ['css', 'Javascript', 'html'],
   modalInfo: 'GD_summit is a mobile application designed to provide the public with information about the upcoming Graphic Designers Conference scheduled to take place in Nigeria. The app offers details about the conference, including the dates, venue and agenda. Additionally, it provides users with insights into past GD summits, highlighting previous guest speakers, presentations, and key takeaways. By utilizing the GD_summit app, attendees can gain access to vital information about the conference, connect with other attendees, and stay up-to-date with the latest news and developments. Overall, the app is a valuable resource for anyone interested in the graphic design industry and seeking to enhance their skills, knowledge, and network.',
   liveText: 'See Live',
   seeIcon: '',
@@ -190,75 +190,75 @@ for (let j = 0; j < projects.length; j += 1) {
 
 const technology = [
   {
-  id: '1',
-  name: ' JavaScript' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/javaScript.png?raw=true',
-},
-{
-  id: '2',
-  name: ' Bootstrap' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/bootstrap.png?raw=true',
-},
-{
-  id: '3',
-  name: ' CSS' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/css.png?raw=true',
-},
-{
-  id: '4',
-  name: ' React' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/react.png?raw=true',
-},
- {
-  id: '5',
-  name: ' Redux' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/redux.png?raw=true',
-},
-{
-  id: '6',
-  name: ' webpack' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/webpack.png?raw=true',
-}, {
-  id: '7',
-  name: ' Ruby' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/ruby.png?raw=true',
-},
-{
-  id: '8',
-  name: ' Rail' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/rail.png?raw=true',
-}, 
-{
-  id: '9',
-  name: ' Vite' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/vite.png?raw=true',
-},
-{
-  id: '10',
-  name: ' Postman' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/postman.png?raw=true',
-}, 
-{
-  id: '11',
-  name: ' Gitflow' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/gitflow.png?raw=true',
-},
-{
-  id: '12',
-  name: ' Kanban' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/kanban.png?raw=true',
-}, 
-{
-  id: '13',
-  name: ' Jest' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/jest.png?raw=true',
-},
-{
-  id: '14',
-  name: ' HTML' ,
-  image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/html.png?raw=true',
-}
-]
+    id: '1',
+    name: ' JavaScript',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/javaScript.png?raw=true',
+  },
+  {
+    id: '2',
+    name: ' Bootstrap',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/bootstrap.png?raw=true',
+  },
+  {
+    id: '3',
+    name: ' CSS',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/css.png?raw=true',
+  },
+  {
+    id: '4',
+    name: ' React',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/react.png?raw=true',
+  },
+  {
+    id: '5',
+    name: ' Redux',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/redux.png?raw=true',
+  },
+  {
+    id: '6',
+    name: ' webpack',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/webpack.png?raw=true',
+  }, {
+    id: '7',
+    name: ' Ruby',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/ruby.png?raw=true',
+  },
+  {
+    id: '8',
+    name: ' Rail',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/rail.png?raw=true',
+  },
+  {
+    id: '9',
+    name: ' Vite',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/vite.png?raw=true',
+  },
+  {
+    id: '10',
+    name: ' Postman',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/postman.png?raw=true',
+  },
+  {
+    id: '11',
+    name: ' Gitflow',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/gitflow.png?raw=true',
+  },
+  {
+    id: '12',
+    name: ' Kanban',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/kanban.png?raw=true',
+  },
+  {
+    id: '13',
+    name: ' Jest',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/jest.png?raw=true',
+  },
+  {
+    id: '14',
+    name: ' HTML',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/postman.png?raw=true',
+  },
+];
 
 const showTechnology = document.querySelector('.ul-technology');
 for (let i = 0; i < technology.length; i += 1) {
@@ -271,9 +271,6 @@ for (let i = 0; i < technology.length; i += 1) {
     </li>
       `;
 }
-
-
-
 
 // Form validation
 
