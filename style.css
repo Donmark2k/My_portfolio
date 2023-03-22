@@ -162,7 +162,11 @@ h2 {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
-  column-gap: 24px;
+  /* grid-template-columns: 0.5fr 0.5fr 0.5fr; */
+justify-content: center;
+align-self: auto;
+align-content: center;
+  column-gap: 2%;
   row-gap: 32px;
   width: 85%;
   margin: 0 auto ;
