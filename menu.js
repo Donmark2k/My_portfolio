@@ -256,7 +256,7 @@ const technology = [
   {
     id: '14',
     name: ' HTML',
-    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/postman.png?raw=true',
+    image: 'https://github.com/Donmark2k/My_portfolio/blob/latest/icon/html.png?raw=true',
   },
 ];
 

@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
 
 body {
   box-sizing: border-box;
-  width: 100%;
+  width: 100vw;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -11,13 +18,7 @@ body {
   position: relative;
 }
 
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  list-style-type: none;
-  position: relative;
-}
+
 
 a {
   text-decoration: none;
@@ -27,12 +28,12 @@ a {
 header {
   position: fixed;
   z-index: 1;
-  width: 100%;
+  width: 100dvw;
   background-color: #fff;
   box-shadow:
-    0 5px 12px rgba(5, 50, 200, 0.5),
-    0 5px 12px rgba(5, 50, 200, 0.5);
-    padding: 0 2%;
+    0 2px 6px rgba(5, 50, 200, 0.5),
+    0 2px 6px rgba(5, 50, 200, 0.5);
+    padding: 0 5%;
 }
 
 a.nav-branding {
@@ -118,10 +119,11 @@ nav {
   background-position: center;
   position: relative;
   opacity: 0.9;
+  width: 100vw;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 2.3rem;
   color: #fff;
   text-align: center;
   padding-top: 150px;
@@ -618,15 +620,16 @@ ul {
 @media screen and (min-width: 992px) {
   .nav-menu-icon {
     display: flex;
-    left: 35%;
+    left: 30%;
     flex-direction: row;
     top: 15px;
     text-align: center;
-    width: 60%;
+    width: 65%;
     z-index: 1;
     justify-content: space-between;
     margin: auto 0;
     padding-top: 0;
+    overflow-x: hidden;
   }
 
   .hamburger {
