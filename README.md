@@ -169,7 +169,7 @@ Feel free to check the [issues page](https://github.com/Donmark2k/My_portfolio/i
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning resources in my journey of being a software developer.
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning platform in my journey of being a software developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
