@@ -24,11 +24,9 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://cdn.icon-icons.com/icons2/3586/PNG/512/token_crypto_portfolio_icon_225985.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+  <h3><b>My Portfolio README Template</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -59,65 +57,33 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [My_portfolio] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session that is designed that run on both mobile and desktop devices.
+**[My_portfolio]** is a responsive app designed to display my professional skills, programming languages and finished projects. It has contact me session that you can use to reach out to me.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-VS code, git, github, figma
-
-### Tech Stack <a name="tech-stack"></a>
-
-Stylelint was used to check errors in style.css
-Webhint was used to check errors in index.html
-Eslint was used to check for erroes in menu.js
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- javaScript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **[introducing myself as a software developer]**
-- **[languages that I can code in]**
-- **[my past project]**
-- **[contact me section]**
-- **[Responsive Version]**
-- **[interactive hamburger menu]**
-- **[modal pop up on clicking see project]**
-
-
-
-
-
-
+<li> Project showcase</li>
+<li> Skills and technologies:</li>
+<li> Experience and education: </li>
+<li> Contact information</li>
+<li> Responsive design</li>
+<li> User-friendly interface</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://donmark2k.github.io/My_portfolio/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## Project Screenshots
+![Home page](./img/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,83 +91,39 @@ Eslint was used to check for erroes in menu.js
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You have to clone the repository first, then run it on your browser
-
 ### Prerequisites
-
-- In order to run this project you need:
-  - browser 
-  - VS code
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need:
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS.
 
 ### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:donmark2k/My_portfolio.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/My_portfolio.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/My_portfolio.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
 ### Usage
-
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- In visual studio  press `alt + L + O` then the project will open on your browser "http://127.0.0.1:5500/".
 
 ### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
 
 ### Deployment
-
 You can deploy this project using:
+- Github pages
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,28 +131,19 @@ Example:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Author1**
+👤 **Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
-**Author2**
-
-- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
-- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oshoke-okolo-665208108/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [1 ] **[I will include livechat]**
-
-
-
+<li> I will include livechat</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +153,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/My_portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,15 +161,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
-
+[Rita Daniel](https://github.com/RitaDee) has been of tremendous help so far.
+- Give a ⭐️ if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my future reviewers for making me a better me...
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning platform in my journey of being a software developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
