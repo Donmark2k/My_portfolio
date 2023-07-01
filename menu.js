@@ -109,7 +109,7 @@ const projects = [{
   closeIcon: 'img/close-icon.png',
   description: 'Todo app',
   technologies: ['css', 'Javascript', 'html'],
-  modalInfo: 'A To-do list app is a software application that assists users in organizing and managing their tasks and responsibilities. It allows users to create a list of tasks or activities that they need to complete, and prioritize them based on their urgency or importance.. Additionally, the To-do list app allows users to track progress by marking completed tasks and removing them from the list. This makes it easier to manage daily schedules and achieve goals effectively',
+  modalInfo: 'A To-do list app is a software application that assists users in organizing and managing their tasks and responsibilities. It allows users to create a list of tasks or activities that they need to complete, and prioritize them based on their urgency or importance. Additionally, the To-do list app allows users to track progress by marking completed tasks and removing them from the list. This makes it easier to manage daily schedules and achieve goals effectively.',
   liveText: 'See Live',
   seeIcon: '',
   sourceText: 'See Source',
