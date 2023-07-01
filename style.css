@@ -499,9 +499,29 @@ ul {
   display: none;
 }
 
+.list_skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list_skills ul {
+  color: #344563;
+  font-weight: bold;
+}
+
+.list_skills li {
+  color: #000000;
+  font-weight: normal;
+}
 @media screen and (min-width: 768px) {
   .modal-anchor {
     display: none;
+  }
+
+  .list_skills {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .modal {
@@ -640,6 +660,9 @@ ul {
   .hamburger {
     display: none;
   }
+  .list_skills {
+    width: 80%;
+  }
 
   .nav-menu {
     display: flex;
@@ -670,4 +693,5 @@ ul {
     padding: 6px 8px;
     font-size: 15px;
   }
+  
 }
