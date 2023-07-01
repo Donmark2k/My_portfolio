@@ -63,7 +63,7 @@ const projects = [{
   seeIcon: '',
   sourceText: 'See Source',
   sourceIcon: '',
-  liveLink: 'mathth.netlify.app',
+  liveLink: 'https://mathth.netlify.app/',
   sourceLink: 'https://github.com/Donmark2k/maths-magician',
 },
 {
