@@ -220,6 +220,11 @@ img.articlePic {
   margin-left: 2%;
 }
 
+.list_skills li {
+  color: #000;
+  font-weight: normal;
+}
+
 #recentCard li {
   color: #172b4d;
   background-color: #d0d9d4;
@@ -455,6 +460,11 @@ ul {
   width: 100%;
 }
 
+.list_skills ul {
+  color: #344563;
+  font-weight: bold;
+}
+
 #recentCard ul {
   display: flex;
   flex-direction: row;
@@ -505,15 +515,6 @@ ul {
   justify-content: space-between;
 }
 
-.list_skills ul {
-  color: #344563;
-  font-weight: bold;
-}
-
-.list_skills li {
-  color: #000000;
-  font-weight: normal;
-}
 @media screen and (min-width: 768px) {
   .modal-anchor {
     display: none;
@@ -660,6 +661,7 @@ ul {
   .hamburger {
     display: none;
   }
+
   .list_skills {
     width: 80%;
   }
@@ -693,5 +695,4 @@ ul {
     padding: 6px 8px;
     font-size: 15px;
   }
-  
 }
