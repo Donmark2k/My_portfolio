@@ -61,6 +61,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 - javaScript
+- HTML
+
 
 <!-- Features -->
 
